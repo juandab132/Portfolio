@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.decorative-angle-top {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+}
+
+.decorative-angle-bottom {
+  clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%);
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
