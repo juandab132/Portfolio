@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutMe: React.FC = () => {
   return (
-    <section className="bg-[#e8f4f2] py-12">
+    <section id="about" className="bg-[#e8f4f2] py-12">
     <main className="max-w-6xl mx-auto px-6">
       <section className="grid grid-cols-1 md:grid-cols-[300px_1fr] gap-8">
         <header className="text-center">
@@ -10,7 +10,7 @@ const AboutMe: React.FC = () => {
           <p className="mb-6 text-black font-serif">¿Quien es Juan David?</p>
           <main className="w-48 h-48 mx-auto rounded-full overflow-hidden bg-gray-200">
             <img
-              src='images/juan.png'
+              src='/images/juan.png'
               alt="Juan David"
               className="w-full h-full object-cover"
             />

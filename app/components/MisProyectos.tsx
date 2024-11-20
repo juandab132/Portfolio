@@ -40,27 +40,27 @@ const MisProyectos: React.FC = () => {
   ];
 
   return (
-    <section className="bg-[#e8f4f2] py-16">
+    <section id="projects" className="bg-[#e8f4f2] py-16">
       <header className="max-w-6xl mx-auto px-6">
         <main className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
-          <div>
+          <main>
             <h2 className="text-2xl font-serif mb-4 text-black font-semibold mt-2">MIS PROYECTOS</h2>
             {projects.slice(0, 2).map((project, index) => (
-              <div key={index}>
+              <main key={index}>
                 <ProjectCard {...project} />
-              </div>
+              </main>
             ))}
-          </div>
-          <div className="mt-8 md:mt-1">
+          </main>
+          <main className="mt-8 md:mt-1">
             <p className="text-lg font-serif mb-8 text-black font-semibold">
               Una selección de proyectos personales que e realizado
             </p>
             {projects.slice(2, 4).map((project, index) => (
-              <div key={index}>
+              <main key={index}>
                 <ProjectCard {...project} />
-              </div>
+              </main>
             ))}
-          </div>    
+          </main>    
         </main>
       </header>
     </section>
