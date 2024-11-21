@@ -5,6 +5,7 @@ import MisProyectos from './components/MisProyectos';
 import HabilidadesYHerramientas from './components/HabilidadesYHerramientas';
 import ExperienciaLaboral from './components/ExperienciaLaboral';
 import Contacto from './components/Contacto';
+import ThemeToggle from './components/ThemeToggle';
 
 
 const Home: React.FC = () => {
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <HabilidadesYHerramientas />
       <ExperienciaLaboral />
       <Contacto/>
+      <ThemeToggle/>
 
     </main>
   );
