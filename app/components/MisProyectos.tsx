@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard: React.FC<{ title: string; description: string; repoLink: string }> = ({ title, description, repoLink }) => {
+const ProjectCard: React.FC<{ title: string; description: string; repoLink: string }> = ({ title, description }) => {
     return (
         <main className="mb-12">
           <h3 className="text-xl font-serif mb-3 text-black font-semibold mt-10">{title}</h3>
