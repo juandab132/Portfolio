@@ -37,36 +37,36 @@ const LinkedInIcon = () => (
 const Contacto = () => {
   return (
     <section id="contact" className="bg-[#6A9CA6] py-16 relative text-white">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
+      <main className="max-w-6xl mx-auto px-6">
+        <article className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
           
-          <div>
+          <section className="contact-form">
             <h2 className="text-3xl font-serif text-black mb-8">CONTACTO</h2>
             <form className="space-y-6">
-              <div>
+              <fieldset>
                 <input
                   type="text"
                   placeholder="Nombre*"
                   className="w-full p-3 rounded bg-white text-black"
                   required
                 />
-              </div>
-              <div>
+              </fieldset>
+              <fieldset>
                 <input
                   type="email"
                   placeholder="Correo*"
                   className="w-full p-3 rounded bg-white text-black"
                   required
                 />
-              </div>
-              <div>
+              </fieldset>
+              <fieldset>
                 <textarea
                   placeholder="Mensaje*"
                   rows={6}
                   className="w-full p-3 rounded bg-white text-black"
                   required
                 />
-              </div>
+              </fieldset>
               <button
                 type="submit"
                 className="bg-[#446B76] text-white px-6 py-2 rounded hover:bg-[#1a2a30] transition-colors"
@@ -74,11 +74,11 @@ const Contacto = () => {
                 Enviar Correo
               </button>
             </form>
-          </div>
+          </section>
 
           
-          <div className="flex flex-col justify-between">
-            <div>
+          <aside className="contact-info flex flex-col justify-between">
+            <section>
               <h3 className="text-2xl font-serif text-black mb-4 font-bold">Ponte en contacto</h3>
               <p className="mb-4 text-bl text-black">
                 Si te interesa colaborar en algún proyecto, quieres saber más sobre mí o simplemente decir hola ¡me encantaría escucharte!
@@ -87,7 +87,7 @@ const Contacto = () => {
                 Rellena el formulario con tus datos y me pondré en contacto contigo lo antes posible.
               </p>
               <p className="mb-4 text-black">¡Encuéntrame en mis redes sociales!</p>
-              <div className="flex gap-4">
+              <nav className="flex gap-4">
                 <a 
                   href="https://github.com/juandab132" 
                   className="hover:text-gray-300 transition-colors" 
@@ -128,16 +128,16 @@ const Contacto = () => {
                   <LinkedInIcon />
                   <span className="sr-only">LinkedIn</span>
                 </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              </nav>
+            </section>
+          </aside>
+        </article>
+      </main>
       
       
-      <div className="absolute bottom-0 left-0 right-0 bg-gray-100 py-4 text-black text-center">
+      <footer className="absolute bottom-0 left-0 right-0 bg-gray-100 py-4 text-black text-center">
         <p className="text-sm">Made by Juan Sanchez</p>
-      </div>
+      </footer>
     </section>
   );
 };

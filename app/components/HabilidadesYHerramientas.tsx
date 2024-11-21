@@ -19,21 +19,9 @@ const HabilidadesYHerramientas: React.FC = () => {
   return (
     <section className="bg-[#e8f4f2] py-16 relative text-black">
       
-      <div className="absolute top-0 left-0 right-0 h-32 bg-[#e8f4f2]" 
-           style={{
-             clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 0)'
-           }}
-      />
-      
-     
-      <div className="absolute bottom-0 left-0 right-0 h-32 bg-[#e8f4f2]"
-           style={{
-             clipPath: 'polygon(0 100%, 100% 0, 100% 100%, 0 100%)'
-           }}
-      />
       
       <section id="skills" className="max-w-6xl mx-auto px-6 relative z-10">
-        <div className="max-w-4xl mx-auto">
+        <section className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-serif mb-8 text-black text-center">
             HABILIDADES Y HERRAMIENTAS
           </h2>
@@ -42,7 +30,7 @@ const HabilidadesYHerramientas: React.FC = () => {
             Las habilidades, herramientas y tecnologías que utilizo son:
           </p>
 
-          <div className="grid grid-cols-3 md:grid-cols-5 gap-x-12 gap-y-16 mb-16 justify-items-center">
+          <section className="grid grid-cols-3 md:grid-cols-5 gap-x-12 gap-y-16 mb-16 justify-items-center">
             <SkillIcon 
               name="GITHUB" 
               icon={
@@ -164,7 +152,7 @@ const HabilidadesYHerramientas: React.FC = () => {
                 </svg>
               }
             />
-          </div>
+          </section>
 
 
           <main className="max-w-2xl mx-auto text-center">
@@ -175,7 +163,7 @@ const HabilidadesYHerramientas: React.FC = () => {
               trabajando en proyectos personales para consolidar mis conocimientos.
             </p>
           </main>
-        </div>
+        </section>
       </section>
     </section>
   );

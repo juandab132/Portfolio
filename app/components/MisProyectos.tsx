@@ -6,7 +6,9 @@ const ProjectCard: React.FC<{ title: string; description: string; repoLink: stri
           <h3 className="text-xl font-serif mb-3 text-black font-semibold mt-10">{title}</h3>
           <p className="text-sm mb-4 leading-relaxed text-gray-800 font-serif">{description}</p>
           <a
-            href={repoLink}
+            href="https://github.com/juandab132"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-[#607875] text-white px-4 py-2 text-sm hover:bg-[#4a615e] transition-colors"
           >
             Ver repositorio Github
@@ -40,7 +42,7 @@ const MisProyectos: React.FC = () => {
   ];
 
   return (
-    <section id="projects" className="bg-[#e8f4f2] py-16">
+    <section id="projects" className="bg-[#9BBFC5] py-16">
       <header className="max-w-6xl mx-auto px-6">
         <main className="grid grid-cols-1 md:grid-cols-2 gap-x-16">
           <main>
