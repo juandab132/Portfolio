@@ -20,7 +20,7 @@ const HabilidadesYHerramientas: React.FC = () => {
     <section className="bg-[#e8f4f2] py-16 relative text-black dark:bg-[#1F2A33] dark:text-white">
 
 
-      <section id="skills" className="max-w-6xl mx-auto px-6 relative z-10">
+      <section id="skills" className="max-w-6xl mx-auto px-6 relative z-10 ">
         <section className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-serif mb-8 text-black text-center dark:text-white">
             HABILIDADES Y HERRAMIENTAS
@@ -30,7 +30,7 @@ const HabilidadesYHerramientas: React.FC = () => {
             Las habilidades, herramientas y tecnologías que utilizo son:
           </p>
 
-          <section className="grid grid-cols-3 md:grid-cols-5 gap-x-12 gap-y-16 mb-16 justify-items-center">
+          <section className="grid grid-cols-3 md:grid-cols-5 gap-x-12 gap-y-16 mb-16 justify-items-center font-serif">
             <SkillIcon
               name="GITHUB"
               icon={

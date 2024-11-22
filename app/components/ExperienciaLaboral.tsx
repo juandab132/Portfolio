@@ -12,10 +12,10 @@ const ExperienciaLaboral = () => {
           <section className="grid md:grid-cols-2 gap-8">
             
             <article className="academic-experience">
-              <h3 className="font-serif font-medium mb-4 text-black dark:text-white">
+              <h3 className="font-serif font-medium mb-4 text-black dark:text-white font-serif">
                 Ingeniería de Software - Universidad Cooperativa de Colombia (2022-presente)
               </h3>
-              <ul className="list-disc pl-5 space-y-2 text-black dark:text-white">
+              <ul className="list-disc pl-5 space-y-2 text-black dark:text-white font-serif">
                 <li>Enfoque en desarrollo de software, bases de datos, arquitectura web y gestión de proyectos.</li>
                 <li>Participación en proyectos de equipo.</li>
                 <li>Uso de metodologías ágiles para el desarrollo de proyectos.</li>
@@ -26,7 +26,7 @@ const ExperienciaLaboral = () => {
               <h3 className="font-serif font-medium mb-4 text-black dark:text-white">
                 Proyecto Personal - Desarrollador Web (2023-presente)
               </h3>
-              <ul className="list-disc pl-5 space-y-2 text-black dark:text-white">
+              <ul className="list-disc pl-5 space-y-2 text-black dark:text-white font-serif">
                 <li>Desarrollo de proyectos web utilizando diferentes tecnologías y lenguajes de programación.</li>
                 <li>Uso de buenas prácticas.</li>
                 <li>Metodologías ágiles.</li>

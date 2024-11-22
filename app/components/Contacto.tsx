@@ -69,7 +69,7 @@ const Contacto = () => {
               </fieldset>
               <button
                 type="submit"
-                className="bg-[#446B76] text-white px-6 py-2 rounded hover:bg-[#1a2a30] transition-colors dark:text-white"
+                className="bg-[#446B76] text-white px-6 py-2 rounded hover:bg-[#1a2a30] transition-colors dark:text-white font-serif"
               >
                 Enviar Correo
               </button>
@@ -80,13 +80,13 @@ const Contacto = () => {
           <aside className="contact-info flex flex-col justify-between">
             <section>
               <h3 className="text-2xl font-serif text-black mb-4 font-bold dark:text-white">Ponte en contacto</h3>
-              <p className="mb-4 text-bl text-black dark:text-white">
+              <p className="mb-4 text-bl text-black dark:text-white font-serif">
                 Si te interesa colaborar en algún proyecto, quieres saber más sobre mí o simplemente decir hola ¡me encantaría escucharte!
               </p>
-              <p className="mb-8 text-black dark:text-white">
+              <p className="mb-8 text-black dark:text-white font-serif">
                 Rellena el formulario con tus datos y me pondré en contacto contigo lo antes posible.
               </p>
-              <p className="mb-4 text-black dark:text-white ">¡Encuéntrame en mis redes sociales!</p>
+              <p className="mb-4 text-black dark:text-white font-serif ">¡Encuéntrame en mis redes sociales!</p>
               <nav className="flex gap-4">
                 <a
                   href="https://github.com/juandab132"
@@ -135,7 +135,7 @@ const Contacto = () => {
       </main>
 
 
-      <footer className="absolute bottom-0 left-0 right-0 bg-gray-100 py-4 text-black text-center">
+      <footer className="absolute bottom-0 left-0 right-0 bg-gray-100 py-4 text-black text-center font-serif">
         <p className="text-sm">Made by Juan Sanchez</p>
       </footer>
     </section>

@@ -9,7 +9,7 @@ const ProjectCard: React.FC<{ title: string; description: string; repoLink: stri
         href="https://github.com/juandab132"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-[#607875] text-white px-4 py-2 text-sm hover:bg-[#4a615e] dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors"
+        className="inline-block bg-[#607875] text-white px-4 py-2 text-sm hover:bg-[#4a615e] dark:bg-gray-700 dark:hover:bg-gray-600 transition-colors font-serif"
       >
         Ver repositorio Github
       </a>
